@@ -1,0 +1,21 @@
+{
+    "name": "lambda-dark",
+    "displayName": "Lambda_dark",
+    "description": "Dark theme for Lambda Students",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "lambda-dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/lambda-dark-color-theme.json"
+            }
+        ]
+    }
+}
